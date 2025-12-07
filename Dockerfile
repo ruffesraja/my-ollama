@@ -5,3 +5,5 @@ ENV OLLAMA_HOST=0.0.0.0
 EXPOSE 11434
 
 CMD ["ollama", "serve"]
+
+# To build the Docker image, use:
